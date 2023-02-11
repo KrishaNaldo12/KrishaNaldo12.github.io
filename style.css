@@ -64,7 +64,7 @@ h4{
 }
 .newslatter form input:first-child{
     display: inline-block;
-    width: 70;
+    width: 60%;
     padding: 14px 130px 14px 15px;
     border: 2px solid orange;
     outline: none;
@@ -75,7 +75,7 @@ h4{
     display: inline-block;
     outline: none;
     border: none;
-    padding: 10px 20px;
+    padding: 10px 30px;
     border-radius: 30px;
     background-color: orange;
     color: white;
