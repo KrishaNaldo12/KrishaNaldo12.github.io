@@ -47,6 +47,16 @@ h1{
     font-size: 75px;
     margin: 20px 0px 20px;
 }
+h3{
+    color: black;
+    font-size: 25%;
+    margin: 50%;
+}
+h4{
+    color: black;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
 .images{
     width:45%;
     height: 80%;
