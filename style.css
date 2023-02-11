@@ -32,16 +32,7 @@ nav ul li a{
 nav ul li a:hover{
     color: purple;
 }
-.detel{
-    margin-left: 8%;
-    margin-top: 13%;
-}
 
-.h1{
-    font-size: 75px;
-    color: #212121;
-    margin: 20px 0px 20px;
-}
 span{
     color: orange;
 }
@@ -51,8 +42,11 @@ span{
     left: 8%;
     transform: translateY(-50%);
 }
-
-
+h1{
+    color: #212121;
+    font-size: 75px;
+    margin: 20px 0px 20px;
+}
 .images{
     width:45%;
     height: 80%;
