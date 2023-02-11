@@ -71,7 +71,7 @@ h4{
     border-radius: 30px;
 
 }
-.newslatter form input:first-child{
+.newslatter form input:last-child{
     position: absolute;
     display: inline-block;
     outline: none;
@@ -100,7 +100,6 @@ h4{
     transform: translateX(-50%);
     transition: bottom 1, left 1s;
 }
-
 .images:hover .shape{
     bottom: 40px;
 }
