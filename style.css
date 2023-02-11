@@ -91,3 +91,6 @@ span{
     transition: transform .4s;
 
 }
+.btn:hover{
+    transform: scale(1.2s);
+}
