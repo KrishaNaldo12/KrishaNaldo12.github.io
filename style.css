@@ -79,5 +79,14 @@ span{
     bottom: 40px;
 }
 .images:hover .girl{
-    left: 45%;
+    left: 40%;
+}
+.btn{
+    background-color: orange;
+    color: white;
+    border: 2px solid transparent ;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+
 }
