@@ -53,9 +53,10 @@ h3{
     margin: 50%;
 }
 h4{
-    color: black;
-    letter-spacing: 2px;
+    color: #fcfcfc;
     font-size: 20px;
+    letter-spacing: 2px;
+    
 }
 .images{
     width:45%;
