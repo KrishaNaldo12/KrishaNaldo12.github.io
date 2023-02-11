@@ -77,6 +77,9 @@ h4{
     outline: none;
     border: none;
     padding: 10px 30px;
+    border-radius: 30px;
+    background-color: orange;
+    color: white;
 }
 
 .images{
