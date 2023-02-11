@@ -66,6 +66,9 @@ h4{
     display: inline-block;
     width: 100%;
     padding: 14px 130px 14px 15px;
+    border: 2px solid orange;
+    outline: none;
+    border-radius: 30px;
 
 }
 .images{
