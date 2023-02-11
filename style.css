@@ -9,6 +9,10 @@
     height: 100vh;
     background: #eff4fd;
 }
+span{
+    color: #f9004f;
+}
+
 nav{
     display: flex;
     width: 80%;
