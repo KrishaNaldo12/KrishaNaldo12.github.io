@@ -7,7 +7,8 @@
     position: relative;
     width: 100%;
     height: 100vh;
-    background: #eff4fd;
+    background:linear-gradient(45deg,#d2001a,#7462ff,#f48e21,#23d5ab);
+
 }
 
 nav{
@@ -26,7 +27,7 @@ nav ul li{
 
 nav ul li a{
     text-decoration: none;
-    color: #000;
+    color: white;
     font-weight: bold;
 }
 nav ul li a:hover{
@@ -120,8 +121,9 @@ h4{
 }
 .about{
     width: 100%;
-    padding: 100px 0px;
-    background-color: #eff4fd;
+    padding: 95px 0px;
+    background:linear-gradient(45deg,#d2001a,#7462ff,#f48e21,#23d5ab);
+    ;
 }
 .about img{
     height: auto;
@@ -141,7 +143,7 @@ h4{
 }
     
 .about-text h2{
-    color: orange;
+    color: white;
     font-size: 75px;
     text-transform: capitalize;
     margin-bottom: 20px;
@@ -176,12 +178,23 @@ button:hover{
     cursor: pointer;
 }
 .service{
-    background: #eff4fd;
-    width: 100%;
-    padding: 100px 0px;
+    background:linear-gradient(45deg,#d2001a,#7462ff,#f48e21,#23d5ab);
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite;
+}
+@keyframes color {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
 }
 .title h2{
-    color: orange;
+    color: white;
     font-size: 75px;
     width:1130px;
     margin:30px auto ;
@@ -192,18 +205,22 @@ button:hover{
     justify-content: center;
     align-items: center;
     min-height: 400px;
-
 }
 .card{
     height: 365px;
     width: 335px;
     padding: 20px 35px;
-    background: #cfe8cf;
+    background: linear-gradient(45deg,#ffbc00,#ff0058);
     border-radius: 20px;
     margin: 15px;
     position: relative;
     overflow: hidden;
     text-align: center;
+    transition: 0.5s;
+    transform: translateY(-20px);
+    
+    
+
 }
 .card i{
     font-size: 50px;
@@ -285,5 +302,11 @@ footer p:nth-child(1){
     color: black;
     margin-bottom: 20px;
     font-weight: bold;
-
+}
+footer p:nth-child(2){
+    color: black;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
 }
