@@ -45,20 +45,11 @@ nav ul li a:hover{
 span{
     color: orange;
 }
-.detel p{
-    color: #555;
-    line-height: 22px;
-}
-.detel a{
+.content{
     position: absolute;
     top: 50%;
     left: 8%;
     transform: translateY(-50%);
-}
-.h1{
-    color: white;
-    margin: 20px 0px 20px;
-    font-size: 75px;
 }
 
 
