@@ -88,5 +88,6 @@ span{
     font-weight: bold;
     padding: 10px 25px;
     border-radius: 30px;
+    transition: transform .4s;
 
 }
