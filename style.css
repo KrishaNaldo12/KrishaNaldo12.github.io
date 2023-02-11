@@ -48,9 +48,9 @@ h1{
     margin: 20px 0px 20px;
 }
 h3{
-    color: #000;
+    color: black;
     font-size: 30%;
-    margin-bottom: 50%;
+    margin: 25%;
 }
 h4{
     color: orange;
@@ -76,10 +76,7 @@ h4{
     display: inline-block;
     outline: none;
     border: none;
-    padding: 10px 30px;
-
-
-
+    padding: 10px 30px; 
 }
 .images{
     width:45%;
